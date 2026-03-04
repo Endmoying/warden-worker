@@ -1,9 +1,9 @@
 name: Backup D1 Database (S3/WebDAV)
 
 on:
-    schedule:
-        # Run daily at UTC 04:00 (1 hour after the auto cleanup task)
-        - cron: "0 4 * * *"
+    # schedule:
+    #     # Run daily at UTC 04:00 (1 hour after the auto cleanup task)
+    #     - cron: "0 4 * * *"
     workflow_dispatch:
         inputs:
             environment:
